@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClockApp", "ClockApp\ClockApp.csproj", "{CFF5E0EB-2A01-4838-9708-7AB02C88E742}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClockApp.Tests", "ClockApp.Tests\ClockApp.Tests.csproj", "{864FA122-848E-4166-8CEC-8A1CAA214528}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFF5E0EB-2A01-4838-9708-7AB02C88E742}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF5E0EB-2A01-4838-9708-7AB02C88E742}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF5E0EB-2A01-4838-9708-7AB02C88E742}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF5E0EB-2A01-4838-9708-7AB02C88E742}.Release|Any CPU.Build.0 = Release|Any CPU
+		{864FA122-848E-4166-8CEC-8A1CAA214528}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864FA122-848E-4166-8CEC-8A1CAA214528}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864FA122-848E-4166-8CEC-8A1CAA214528}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864FA122-848E-4166-8CEC-8A1CAA214528}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

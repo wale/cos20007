@@ -1,0 +1,41 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "command": "/home/wale/.asdf/shims/dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/Tutorial1/Tutorial1.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "publish",
+            "command": "/home/wale/.asdf/shims/dotnet",
+            "type": "process",
+            "args": [
+                "publish",
+                "${workspaceFolder}/Tutorial1/Tutorial1.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "watch",
+            "command": "/home/wale/.asdf/shims/dotnet",
+            "type": "process",
+            "args": [
+                "watch",
+                "run",
+                "--project",
+                "${workspaceFolder}/Tutorial1/Tutorial1.csproj"
+            ],
+            "problemMatcher": "$msCompile"
+        }
+    ]
+}
